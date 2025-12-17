@@ -1,9 +1,10 @@
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.newapp">
 
     <application
         android:name="${applicationName}"
-        android:label="Soniya Live"
+        android:label="soniya_live"
         android:icon="@mipmap/ic_launcher">
 
         <activity
@@ -11,7 +12,7 @@
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
 
@@ -29,5 +30,4 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-
 </manifest>
